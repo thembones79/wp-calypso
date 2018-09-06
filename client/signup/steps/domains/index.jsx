@@ -403,7 +403,7 @@ class DomainsStep extends React.Component {
 	}
 
 	isDomainsFirstFlow() {
-		return 'domain-first' === this.props.flowName;
+		return 'domain' === this.props.flowName;
 	}
 
 	renderContent() {
